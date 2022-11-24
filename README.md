@@ -1,2 +1,2 @@
 # rsschool-cv
-Repository for the project:)
+https://onyxgeek.github.io/rsschool-cv/cv
