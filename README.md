@@ -1,2 +1,2 @@
 # rsschool-cv
-https://onyxgeek.github.io/rsschool-cv/cv
+https://onyxgeek.github.io/rsschool-cv/html
