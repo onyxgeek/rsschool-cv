@@ -35,7 +35,7 @@
     display: flex;
     margin-top: 20px;
     width: 100;
-    height: 1000px;
+    height: 1200px;
     flex-direction: column;
     border-radius: 55px;
     
@@ -82,7 +82,7 @@
     display: flex;
     border: 1px solid black;
     width: 70%;
-    height: 500px;
+    height: 800px;
     padding: 50px;
     margin-top: 20px;
     margin-left: 170px;
@@ -107,9 +107,26 @@
 
 .box1{
     width: 400px;
-    height: 200px;
+    height: 300px;
     border: 1px solid black;
     margin:10px;
+    border-radius: 55px;
+    transition:1s;
+}
+.box1:hover{
+    transform:scale(1.1)
+}
+
+.title-box1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.description1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 10px;
 }
 
 
