@@ -113,7 +113,46 @@
     border-radius: 55px;
     transition:1s;
 }
+
+.box2{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin:10px;
+    border-radius: 55px;
+    transition:1s;
+    
+}
+
+.box3{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin:10px;
+    border-radius: 55px;
+    transition:1s;
+}
+.box4{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin:10px;
+    border-radius: 55px;
+    transition:1s;
+}
 .box1:hover{
+    transform:scale(1.1)
+}
+
+.box2:hover{
+    transform:scale(1.1)
+}
+
+.box3:hover{
+    transform:scale(1.1)
+}
+
+.box4:hover{
     transform:scale(1.1)
 }
 
@@ -128,7 +167,40 @@
     font-size: 20px;
     margin: 10px;
 }
-
+.loadline{
+    height: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+}
+.loadline2{
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: black;
+}
+.loadline3{
+    height: 20px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: black;
+}
+.loadline4{
+    height: 20px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: black;
+}
+.skills-ul{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    
+}
+.list{
+    margin:10px
+}
 
   
 
