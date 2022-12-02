@@ -41,7 +41,6 @@
     
 }
 .footer{
-    border: 1px solid black;
     display: flex;
     margin-top: 20px;
     width: 100;
@@ -62,6 +61,27 @@
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
     
+}
+.navbar1{
+  background-color: aqua;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;}
+
+  .navbar2{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.navbar3{
+    background-color: aqua;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;}
+a{
+    color:inherit;
+    text-decoration: none;
 }
 .content{
     display: flex;
@@ -210,6 +230,17 @@
 .code{
     text-align: center;
 }
+.footer-flex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left:600px;
+}
+.icons-image{
+    padding: 20px;
+}
+   
+
 
 
 
