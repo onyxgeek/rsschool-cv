@@ -201,8 +201,15 @@
 .list{
     margin:10px
 }
-
-  
+.list-education{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin-top:20px;
+}
+.code{
+    text-align: center;
+}
 
 
 
