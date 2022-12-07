@@ -8,13 +8,76 @@
     <title>CV</title>
 </head>
 <body>
-    <div class="header">
-        <h1>CV NICU</h1>
+<div class="container">
+  <header class="header">
+    <div class="logo"></div>
+        <nav class="navigation">
+            <div class="navbar1"><a href="#box1">About</a> </div>
+            <div class="navbar2"><a href="#box2">Skills</a> </div>
+            <div class="navbar3"><a href="#box3">Education</a> </div>
+        </nav>
+   </header>
+<main class="main">
+    <div class="content glass ">
+        <img class="profile-image" src="img/profile-modified.png" alt="profile image">
+        <h1 class="name">Gorobet Nicolae</h1>
     </div>
-    <div class="main">
-        <div class="content"></div>
-        <div class="sidebar"></div>
+    <div class="content2 glass">
+        <div id="box1" class="box1 glass">
+        <h1 class="title-box1">Hi there</h1>
+        <p class="description1">At the moment I'm just a student in Romania in Computer Science, I'm not a talented kid or something like this, I believe that patience beats anything and anyone. Maybe I'm not so good at the moment at programing but sure enough I have a lot fo soft skills that can help me to achieve what I want in my own life</p>
     </div>
-    <div class="footer"></div>
+    <div id="box2" class="box2 glass">
+        <h1 class="title-box1">Skills</h1>
+         <p class="skillshtml">HTML</p>
+        <div class="loadline "> <div class="loadline2"></div> </div>
+        <p class="skillshtml">CSS</p>
+        <div class="loadline"> <div class="loadline3"></div> </div>
+        <p class="skillshtml">JS BASE</p>
+        <div class="loadline"> <div class="loadline4"></div> </div>
+
+
+    </div>
+    <div id="box3" class="box3 glass">
+        <h1 class="title-box1">Education</h1>
+            <ul class="list-education">
+                <li  class="list">First year of Computer Science</li>
+                <li  class="list">Courses on freeCodeCamp and The Odin Project</li>
+                <li  class="list">Fhineshed 12-th grade</li>
+                <li  class="list"> I can make you laugh</li>
+                <li  class="list">ENGLISH-A-2</li>
+            </ul>
+    </div>
+    <div class="box4 glass">
+        <h1 class="title-box1">Code</h1>
+        <pre>
+            <code>
+            const bankAccount = (initialBalance) {
+            const balance = initialBalance;
+                return {
+                 getBalance: function() {
+                    return balance;
+                                      },
+                deposit: function(amount) {
+                 balance += amount;
+                return balance;
+                },
+                    };
+                        };
+                const account = bankAccount(100);
+            </code>
+        </pre>
+    </div>
+ </div>
+</main>
+<footer class="footer">
+  <div class="footer-flex">
+    <a href="https://t.me/popsboy"><img class="icon-images" src="img/telegram.png" alt="telegram icon"></a>
+    <a href="discordapp.com/users/772524832436649984"><img src="img/discord.png" alt="discord icon"></a>
+    <a href="https://github.com/onyxgeek"><img src="img/git.png" alt="github-icon"></a>
+    <a href="https://rs.school/"><img src="img/rs_school.svg" alt="rsschool logo" class="rslogoo"></a>
+  </div>
+</footer>
+    </div>
 </body>
 </html>
